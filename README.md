@@ -1,4 +1,4 @@
-#gRPC avec Spring Boot
+# gRPC avec Spring Boot
 Table des matières
 •	Description
 •	Configuration du serveur
@@ -29,7 +29,7 @@ o	Mise à jour côté client
 	Ajout du certificat au client
 	Création d'une classe d'intercepteur
 	Mise à jour du fichier de propriétés
-#Description
+# Description
 Dans ce projet, nous développons une application gRPC Spring Boot avec des composants serveur et client. L'objectif principal est de mettre en œuvre des opérations CRUD (Créer, Lire, Mettre à jour, Supprimer) pour la gestion des stageres. L'application permettra des fonctionnalités telles que l'ajout de nouveaux stageres, la suppression, la mise à jour des informations sur les stageres et la récupération d'une liste des stageres. Nous exploiterons également la programmation réactive pour récupérer et afficher efficacement une liste d'étudiants utilisant des flux.
 Configuration du serveur
 pour configurer le serveur il faut suivez les étapes suivantes
@@ -100,7 +100,7 @@ Ajoutez le plugin suivant :
 
 </plugin>
 
-#Création des définitions de service gRPC
+# Création des définitions de service gRPC
 .protoPlacez vos définitions/fichiers protobuf dans src/main/resources. Pour écrire des fichiers protobuf, veuillez vous référer à la documentation officielle de protobuf .
 
 Vos .protofichiers ressemblentront à l'exemple ci-dessous :
